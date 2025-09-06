@@ -1,0 +1,23 @@
+llm:
+  primary_model: "groq/llama-3.1-70b-versatile"
+  fallback_model: "google/gemini-1.5-flash"
+  max_tokens: 1024
+  timeout_seconds: 20
+
+embedding:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  batch_size: 16
+
+retrieval:
+  chroma_collection: "org_docs_v1"
+  persist_directory: "db/chroma"
+  top_k: 5
+  score_threshold: 0.3
+
+safety:
+  confidence_threshold: 0.6
+  pii_redaction: true
+
+logging:
+  file_path: "logs/app.log"
+  log_level: "INFO"
