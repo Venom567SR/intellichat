@@ -5,11 +5,6 @@
 
 ---
 
-> **Why this README will impress recruiters**
-> It shows system design, production/dev steps, testing & CI guidance, security considerations, and interview-ready talking points — everything a recruiter or engineering manager wants to see. 🚀
-
----
-
 # Table of Contents 📚
 
 1. [Project Snapshot](#project-snapshot)
@@ -268,4 +263,5 @@ If you'd like, I can now:
 * 🐳 Create a `Dockerfile` + `docker-compose.yml` for a one-command local demo
 
 Which of those should I generate next?
+
 
